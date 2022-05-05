@@ -1,0 +1,10 @@
+<div class="container">
+  <mat-card>
+    <mat-card-subtitle>Advice #{{ advice.slip.id }}</mat-card-subtitle>
+    <mat-card-content>"{{ advice.slip.advice }}" </mat-card-content>
+    <img class="divider" src="{{ imageSrc }}" />
+    <button mat-button>
+      <img class="dice" src="{{ ImageSrc }}" (click)="adviceMe()" />
+    </button>
+  </mat-card>
+</div>

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 28px;
+  background-image: "assets/pattern-divider-desktop.png";
+  font-family: Manrope;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 30px;
+  background-color: hsl(218, 23%, 16%);
+}

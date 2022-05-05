@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  height: 100%;
+  align-content: center;
+}
+mat-card {
+  background-color: hsl(217, 19%, 24%);
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+}
+mat-card-subtitle {
+  color: hsl(150, 100%, 66%);
+}
+
+mat-card-content {
+  color: #ffffff;
+}
+
+.dice {
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  padding: 15px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
